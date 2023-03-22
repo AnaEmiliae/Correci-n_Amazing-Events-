@@ -3,7 +3,6 @@ let apiUrl = "https://mindhub-xj03.onrender.com/api/amazing"
 let inputText = ''
 const card = document.getElementById('card')
 
-
 //funcion async
 async function traer_datos() {
     try {

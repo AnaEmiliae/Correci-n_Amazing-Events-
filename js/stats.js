@@ -61,6 +61,7 @@ function calcularGanancias (array,nombrecategoria){
 }
 
 function introducirTabla2 (array,contenedor){
+    
 //  arreglo de categorias unicas
     let categorias = [... new Set(array.map(elemento => elemento.category))]
 

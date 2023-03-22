@@ -16,28 +16,6 @@ fetch(apiUrl)
   .catch(error => console.log(error))
   
 
-/*const id = new URLSearchParams(location.search).get("id")
-
-async function getApi(){
-  try {
-    const response = await fetch(apiUrl);
-    const datos = await response.json();
-    let eventos = datos.events;
-    createCard(card)
-  }
-  catch(error){
-    console.log(error);
-  }
-}
-
-getApi()
-
-
-
-const cartas = eventos.find(elemento => elemento._id == id)
-console.log(cartas)
-createCard(cartas)*/
-
 function createCard(card) {
     const card_details = document.getElementById("card_details")
     let div = document.createElement('div')
