@@ -101,7 +101,7 @@ function verificarSeleccion(arrayString, arrayDeObjetos) {
 
     let eventosFiltrados = arrayDeObjetos.filter(evento => arrayString.includes(evento.category))
     return eventosFiltrados
-    //console.log(eventosFiltrados);
+
 }
 
 //agregar escuchar eventos de search
